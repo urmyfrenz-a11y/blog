@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>분석 | 나의 기록장</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><span class="logo-mark">ME</span><span>나의 기록장</span></a>
+    <nav class="nav" aria-label="주요 페이지">
+      <a href="index.html">Home</a>
+      <a href="analysis.html" aria-current="page">분석</a>
+      <a href="stocks.html">주식동향</a>
+      <a href="travel.html">여행기록</a>
+      <a href="books.html">책소개</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Hand-drawn analytics</p>
+        <h1>나를 읽는 작은 표식</h1>
+        <p class="lead">기록의 개수, 관심사의 변화, 시간을 많이 쓰는 분야를 손그림 노트처럼 담백하게 살펴보는 분석 페이지입니다.</p>
+      </div>
+      <figure class="pin tall">
+        <img src="assets/sketch-fish.jpg" alt="손그림 스타일의 참고 이미지">
+      </figure>
+    </section>
+
+    <section class="section alt">
+      <div class="section-head">
+        <h2>Overview</h2>
+        <p>샘플 지표를 기반으로 만든 개인 분석 보드입니다. 실제 숫자는 필요에 맞게 바꿔 넣을 수 있습니다.</p>
+      </div>
+      <div class="grid">
+        <div class="metric-grid">
+          <article class="panel metric"><strong data-entry-count>0</strong><small>일상 기록</small></article>
+          <article class="panel metric"><strong>18</strong><small>관심 키워드</small></article>
+          <article class="panel metric"><strong>7</strong><small>읽는 중인 책</small></article>
+          <article class="panel metric"><strong>4</strong><small>여행 후보지</small></article>
+        </div>
+        <article class="panel">
+          <h3>관심사 분포</h3>
+          <div class="bars">
+            <div class="bar"><span>배움</span><div class="bar-track"><div class="bar-fill" style="width: 82%"></div></div><strong>82</strong></div>
+            <div class="bar"><span>투자</span><div class="bar-track"><div class="bar-fill" style="width: 64%; background: var(--moss)"></div></div><strong>64</strong></div>
+            <div class="bar"><span>여행</span><div class="bar-track"><div class="bar-fill" style="width: 58%; background: var(--terra)"></div></div><strong>58</strong></div>
+            <div class="bar"><span>독서</span><div class="bar-track"><div class="bar-fill" style="width: 76%; background: var(--gold)"></div></div><strong>76</strong></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">기록을 쌓을수록 분석 페이지도 더 선명해집니다.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
