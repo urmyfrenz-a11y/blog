@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">물가의 산책 스케치</title>
+  <desc id="desc">다리와 물결 사이를 지나는 생선과 흰 매듭을 손그림처럼 표현한 그림</desc>
+  <rect width="420" height="300" fill="#fffdfa"/>
+  <path d="M55 123c78-33 165-33 263 0" fill="none" stroke="#242321" stroke-width="4" stroke-linecap="round"/>
+  <path d="M69 122v80m58-92v92m59-93v93m60-88v88m59-72v72" stroke="#242321" stroke-width="3" stroke-linecap="round"/>
+  <path d="M57 202h293" fill="none" stroke="#242321" stroke-width="4" stroke-linecap="round"/>
+  <path d="M72 232c39-15 76-14 111 0 40 16 83 14 129-7" fill="none" stroke="#242321" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <path d="M96 174c47-28 98-29 153-2 32 16 65 17 98 3-22 36-65 51-126 42-50-7-92-21-125-43z" fill="#d39b2d" stroke="#242321" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M335 174c22-18 46-25 70-21-12 13-16 27-5 42-24-2-46-9-65-21z" fill="#242321"/>
+  <circle cx="140" cy="173" r="16" fill="#fffdfa" stroke="#242321" stroke-width="4"/>
+  <circle cx="143" cy="172" r="5" fill="#242321"/>
+  <path d="M96 174c-17 1-30 8-40 20 16 6 31 3 44-7" fill="#fffdfa" stroke="#242321" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M213 134c-8-27 12-43 39-38 9 25-9 43-39 38zm14 6c28-12 49 4 49 32-25 10-45 0-49-32zm-3 1c20 25 18 52-6 75-19-27-17-53 6-75z" fill="#fffdfa" stroke="#242321" stroke-width="3"/>
+</svg>
