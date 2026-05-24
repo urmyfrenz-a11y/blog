@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 270" role="img" aria-labelledby="title desc">
+  <title id="title">다시 읽을 책 스케치</title>
+  <desc id="desc">책갈피가 있는 책과 머스터드 생선 손그림</desc>
+  <rect width="210" height="270" fill="#fffdfa"/>
+  <path d="M48 31h119v206H48z" fill="#f6f1e7" stroke="#242321" stroke-width="5"/>
+  <path d="M129 32v74l18-15 17 15V32z" fill="#f0cf80" stroke="#242321" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M68 61h42M68 80h36M67 211h62" stroke="#242321" stroke-width="3" stroke-linecap="round" opacity=".48"/>
+  <path d="M43 160c29-23 64-25 103-5 24 12 45 13 64 2-14 29-44 42-88 35-35-6-62-16-79-32z" fill="#d39b2d" stroke="#242321" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="72" cy="159" r="12" fill="#fffdfa" stroke="#242321" stroke-width="4"/>
+  <circle cx="75" cy="158" r="4" fill="#242321"/>
+  <path d="M43 160c-12 1-22 6-31 16 13 5 24 2 33-5" fill="#fffdfa" stroke="#242321" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M141 114c-8-22 8-37 31-36 8 20-6 35-31 36zm12 4c23-11 42 2 43 24-20 10-39 2-43-24zm-5 1c17 20 15 41-4 62-16-21-15-42 4-62z" fill="#fffdfa" stroke="#242321" stroke-width="3"/>
+</svg>
