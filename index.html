@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | 나의 기록장</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><span class="logo-mark">ME</span><span>나의 기록장</span></a>
+    <nav class="nav" aria-label="주요 페이지">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="analysis.html">분석</a>
+      <a href="stocks.html">주식동향</a>
+      <a href="travel.html">여행기록</a>
+      <a href="books.html">책소개</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Personal sketch archive</p>
+        <h1>내 하루를 그려두는 곳</h1>
+        <p class="lead">관심사, 분석 노트, 주식 관찰, 여행 기록, 좋아하는 책을 손으로 그린 스케치북처럼 가볍고 선명하게 모아두는 개인 웹페이지입니다.</p>
+        <div class="actions">
+          <a class="button" href="#journal">오늘 기록하기</a>
+          <a class="button secondary" href="analysis.html">분석 보기</a>
+        </div>
+      </div>
+      <div class="pin-wall" aria-label="이미지 무드보드">
+        <figure class="pin tall">
+          <img src="assets/sketch-fish.jpg" alt="손그림으로 그린 생선과 꼬인 흰 장식">
+        </figure>
+        <div class="sketch-stack" aria-label="기록 요약 카드">
+          <article class="note-card">
+            <span class="note-number">01</span>
+            <h3>관심사</h3>
+            <p>요즘 자주 들여다보는 주제와 취향을 짧게 모읍니다.</p>
+          </article>
+          <article class="note-card">
+            <span class="note-number">02</span>
+            <h3>일상</h3>
+            <p>하루를 길게 설명하지 않고도 기억나는 장면만 남깁니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="caption-strip">
+      <span>선으로 남기는 관심사</span>
+      <span>짧게 적는 일상</span>
+      <span>오래 보는 취향</span>
+    </div>
+
+    <section class="section" id="journal">
+      <div class="section-head">
+        <h2>Daily Log</h2>
+        <p>작성한 기록은 이 브라우저에 저장됩니다. 홈에서 빠르게 남기고, 나중에 다시 돌아볼 수 있습니다.</p>
+      </div>
+      <div class="grid sidebar">
+        <form class="panel journal-form" data-journal-form>
+          <div class="field">
+            <label for="title">제목</label>
+            <input id="title" name="title" maxlength="40" placeholder="오늘의 한 줄" required>
+          </div>
+          <div class="field">
+            <label for="body">기록</label>
+            <textarea id="body" name="body" maxlength="700" placeholder="오늘 남기고 싶은 순간을 적어보세요." required></textarea>
+          </div>
+          <button class="button" type="submit">저장</button>
+        </form>
+        <div class="entries" data-entries></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Home, 분석, 주식동향, 여행기록, 책소개로 구성된 개인 아카이브</footer>
+  <script src="script.js"></script>
+</body>
+</html>
