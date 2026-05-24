@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">도시의 밤 스케치</title>
+  <desc id="desc">밤하늘 아래 생선과 흰 매듭, 도시 창문을 손그림처럼 표현한 그림</desc>
+  <rect width="420" height="300" fill="#fffdfa"/>
+  <circle cx="315" cy="72" r="28" fill="#f0cf80" stroke="#242321" stroke-width="3"/>
+  <path d="M324 57c-14 10-18 27-8 43" fill="#fffdfa"/>
+  <path d="M64 204h287" fill="none" stroke="#242321" stroke-width="4" stroke-linecap="round"/>
+  <path d="M76 128h42v76H76zm61-31h48v107h-48zm69 55h38v52h-38zm57-41h54v93h-54z" fill="#f6f1e7" stroke="#242321" stroke-width="3"/>
+  <path d="M89 145h9m54-27h9m19 0h9m33 51h9m57-40h9m17 0h9m-225 38h9m65-18h9m112 22h9" stroke="#d39b2d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M105 214c45-31 92-32 139-4 29 17 62 16 97-3-17 35-57 50-114 43-52-7-92-19-122-36z" fill="#d39b2d" stroke="#242321" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="144" cy="211" r="15" fill="#fffdfa" stroke="#242321" stroke-width="4"/>
+  <circle cx="148" cy="210" r="5" fill="#242321"/>
+  <path d="M104 214c-17 0-31 6-42 18 16 7 31 4 45-6" fill="#fffdfa" stroke="#242321" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M330 207c22-16 44-22 67-18-12 12-15 26-5 39-24-1-45-8-62-21z" fill="#242321"/>
+  <path d="M219 182c-12-28 4-49 33-50 15 24 2 47-33 50zm18 4c28-14 51 2 52 31-25 12-47 1-52-31zm-6-2c23 25 24 52 2 78-22-26-22-53-2-78z" fill="#fffdfa" stroke="#242321" stroke-width="3"/>
+</svg>
